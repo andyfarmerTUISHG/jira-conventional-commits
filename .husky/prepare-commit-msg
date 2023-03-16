@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+
+if [[ ! "$branch" == "dev" && ! "$branch" == "master" && ! "$branch" == "main" ]]; then
+	exec < /dev/tty && ./node_modules/.bin/git-cz --hook
+fi
