@@ -1,0 +1,20 @@
+{
+  "name": "jira-conventional-commits",
+  "version": "1.0.0",
+  "description": "Basic repo that can be used to demonstrate [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) - with the [Jira plugin](https://www.npmjs.com/package/@digitalroute/cz-conventional-changelog-for-jira).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyfarmerTUISHG/jira-conventional-commits.git"
+  },
+  "keywords": [],
+  "author": "Andy Farmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyfarmerTUISHG/jira-conventional-commits/issues"
+  },
+  "homepage": "https://github.com/andyfarmerTUISHG/jira-conventional-commits#readme"
+}
