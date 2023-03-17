@@ -27,7 +27,10 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "CZ_JIRA_LOCATION": "pre-type",
+      "CZ_JIRA_PREPEND": "[ ",
+      "CZ_JIRA_APPEND": " ]"
     }
   }
 }
